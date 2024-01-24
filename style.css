@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+}
+div{
+    width:100px;
+    height:100px;
+    border:2px solid black;
+    display:inline-block;
+}
+#container{
+    width:800px;
+    height:200px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#box1{
+    background-image: url("deer_photo.jpg");
+    background-size: contain;
+
+}
